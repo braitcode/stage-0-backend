@@ -1,5 +1,5 @@
 const EMAIL = "brightjohn489@gmail.com";
-const GITHUB_URL = "https://github.com/braitcode";
+const GITHUB_URL = "https://github.com/braitcode/stage-0-backend.git";
 
 export const getDetails = async (req, res) => {
     const current_datetime = new Date().toISOString(); // ISO 8601 UTC format
