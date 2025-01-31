@@ -9,7 +9,16 @@ const app = express();
 const port = process.env.PORT
 
 // Enable CORS for all routes
-app.use(cors());
+app.use(
+    cors({
+      origin: "*", // Allow all origins
+      methods: "GET, POST, PUT, DELETE, OPTIONS", // Allow common HTTP methods
+      allowedHeaders: "Content-Type, Authorization", // Allow specific headers
+    })
+  );
+  
+  // Middleware to handle preflight requests
+  app.options("*", cors());
 
 app.get('/', (req, res) => {
     res.send('Welcome to My Backend');
