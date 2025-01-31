@@ -79,7 +79,7 @@ The server will begin running and can accessed by navigating to `http://localhos
 In my `.env` file, I defined environment-specific variables. For example:
 
 ```env
-PORT=8000
+PORT=8080
 ```
 
 **Step 3: Loading the Environment Variables**
@@ -146,5 +146,7 @@ This setup is to manage sensitive information and configuration options without 
     "current_datetime": "2025-01-31T11:06:03.095Z",
     "github_url": "https://github.com/braitcode"
    }
+
+backlink related to my chosen programming stack: https://hng.tech/hire/nodejs-developers
 
 **Coded by @braitcode**
