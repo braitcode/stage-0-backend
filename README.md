@@ -136,7 +136,7 @@ This setup is to manage sensitive information and configuration options without 
 
 - **`/Get Details`:**
     
-    [details](http://localhost:8080/api/details/)
+    [details](http://localhost:8080/api/details)
 
     Response:
 
@@ -147,6 +147,6 @@ This setup is to manage sensitive information and configuration options without 
     "github_url": "https://github.com/braitcode"
    }
 
-backlink related to my chosen programming stack: https://hng.tech/hire/nodejs-developers
+Backlink related to my chosen programming stack: https://hng.tech/hire/nodejs-developers
 
 **Coded by @braitcode**
